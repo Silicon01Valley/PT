@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function (){
                 alert("Ошибка")
                 form.classList.remove('_sending');
             }
-        } /*может быть убрать*/ else {
+        } else {
             alert('Заполните обязательные поля');
         } 
     }
