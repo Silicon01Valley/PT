@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
         let error = formValidate(form);
 
         let formData = new FormData(form);
-        formData.append();
 
         if (error===0) {
             form.classList.add('_sending');
